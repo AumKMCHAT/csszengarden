@@ -36,7 +36,76 @@
 }
 
 #zen-preamble p {
-  padding-left: 50px;
+  padding: 0px 50px;
   font-size: 1.2em;
+}
+
+.design-selection {
+  border-style: solid;
+  margin-right: 1000px;
+  position: relative;
+  bottom: 2272px;
+  left: 1000px;
+}
+
+.design-selection .select {
+  margin-left: 20px;
+  font-size: 2em;
+}
+
+.design-selection ul li {
+  margin-top: 10px;
+}
+
+#zen-supporting {
+  border-top: solid;
+  border-width: 10px;
+  margin-top: 50px;
+}
+
+#zen-supporting h3 {
+  font-size: 2em;
+}
+
+#zen-supporting .explanation {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-right: 1000px;
+  border-style: solid;
+  font-size: 1.2em;
+}
+
+.participation {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: 500px;
+  border-style: solid;
+  position: relative;
+  left: 500px;
+  bottom: 660px;
+  font-size: 1.2em;
+}
+
+.participation h3 {
+  font-size: 2em;
+}
+
+.zen-resources {
+  position: relative;
+  bottom: 1610px;
+  left: 550px;
+  font-size: 1.1em;
+}
+
+.design-archives {
+  position: relative;
+  bottom: 1504px;
+  left: 850px;
+  font-size: 1.1em;
+}
+
+a {
+  color: #222020;
 }
 /*# sourceMappingURL=style.css.map */
