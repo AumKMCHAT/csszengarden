@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> [Kammachat Khwanyoo]
 >  
-> [Your ID]
+> [6210402356]
 
 ## Task
 

@@ -1,0 +1,27 @@
+#css-zen-garden {
+  background-color: #f7f7ec;
+  border: black;
+  border-style: solid;
+}
+
+.page-wrapper {
+  margin: 2em 3em;
+}
+
+.intro h1 {
+  font-size: 10em;
+}
+
+.intro h2 {
+  border-style: solid none;
+  text-align: center;
+  margin: 200px 400px 0px 400px;
+  padding: 20px;
+}
+
+.summary {
+  font-size: 1.2em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=style.css.map */
