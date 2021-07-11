@@ -1,12 +1,10 @@
 
 
-#css-zen-garden {
+body {
     background-color: #f7f7ec;
     border: black;
     border-style: solid;
     position: relative;
-    margin: auto;
-    padding: 0;
 }
 .page-wrapper {
     margin: 2em 3em;
@@ -120,16 +118,17 @@
     p {
         padding-left: 20px;
         text-indent: 20px;
-        column-count: 3;
-        column-rule: solid black 2px;
-        column-span: all;
+        // width: 100%;
+        // column-count: 3;
+        // column-rule: solid black 2px;
     }
     p[role=contentinfo] {
         position: absolute;
-        counter-reset: none;
+        width: 60%;
         left: 105%;
         bottom: 30%;
     }
+    // display: flex;
     padding-left: 20px;
     padding-right: 20px;
     border-style: solid;
