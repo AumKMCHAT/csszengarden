@@ -7,6 +7,7 @@ body {
 
 .page-wrapper {
   margin: 2em 3em;
+  height: 2600px;
 }
 
 .intro h1 {
@@ -45,7 +46,7 @@ body {
   border-style: solid;
   padding-right: 20px;
   position: absolute;
-  bottom: 48%;
+  bottom: 60%;
   left: 70%;
 }
 
@@ -83,7 +84,7 @@ body {
   margin-right: 50px;
   border-style: solid;
   position: absolute;
-  bottom: 13.8%;
+  bottom: 33.5%;
   left: 34%;
   font-size: 1.2em;
 }
@@ -94,14 +95,14 @@ body {
 
 .zen-resources {
   position: absolute;
-  bottom: 5%;
+  bottom: 26%;
   left: 38%;
   font-size: 1.1em;
 }
 
 .design-archives {
   position: absolute;
-  bottom: 7.8%;
+  bottom: 28.3%;
   left: 60%;
   font-size: 1.1em;
 }
@@ -109,7 +110,9 @@ body {
 .benefits {
   border-style: solid;
   position: absolute;
-  top: 102%;
+  top: 77.7%;
+  right: 3%;
+  padding-right: 20px;
   font-size: 1.2em;
   margin-left: 900px;
   padding-left: 20px;
@@ -119,8 +122,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   border-style: solid;
-  position: absolute;
-  top: 102%;
+  margin-top: 50px;
   margin-right: 600px;
   font-size: 1.2em;
 }
@@ -132,15 +134,14 @@ body {
 
 .requirements p[role=contentinfo] {
   position: absolute;
-  width: 60%;
-  left: 105%;
-  bottom: 30%;
+  width: 35%;
+  left: 59%;
+  bottom: 10%;
 }
 
 footer {
   position: absolute;
-  left: 65%;
-  top: 115%;
+  left: 83%;
   font-size: 1.2em;
 }
 
