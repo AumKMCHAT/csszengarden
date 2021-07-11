@@ -4,6 +4,7 @@
     background-color: #f7f7ec;
     border: black;
     border-style: solid;
+    position: relative;
 }
 .page-wrapper {
     margin: 2em 3em;
@@ -53,10 +54,10 @@
         }
     }
     border-style: solid;
-    margin-right: 1000px;
-    position: relative;
-    bottom: 2272px;
-    left: 1000px
+    padding-right: 20px;
+    position: absolute;
+    bottom: 48%;
+    left: 70%;
 }
 
 #zen-supporting {
@@ -82,26 +83,65 @@
     }
     padding-left: 50px;
     padding-right: 50px;
-    margin-right:500px;
+    margin-right: 50px;
     border-style: solid;
-    position: relative;
-    left: 500px;
-    bottom: 660px;
+    position: absolute;
+    bottom: 13.8%;
+    left: 34%;
     font-size: 1.2em;
 }
 
 .zen-resources {
-    position: relative;
-    bottom: 1610px;
-    left: 550px;
+    position: absolute;
+    bottom: 5%;
+    left: 38%;
     font-size: 1.1em;
 }
 
 .design-archives {
-    position: relative;
-    bottom: 1504px;
-    left: 850px;
+    position: absolute;
+    bottom: 7.8%;
+    left: 60%;
     font-size: 1.1em;
+}
+
+.benefits {
+    border-style: solid;
+    position: absolute;
+    top: 102%;
+    font-size: 1.2em;
+    margin-left: 900px;
+    padding-left: 20px;
+}
+
+.requirements {
+    p {
+        padding-left: 20px;
+        text-indent: 20px;
+        column-count: 3;
+        column-rule: solid black 2px;
+        column-span: all;
+    }
+    p[role=contentinfo] {
+        position: absolute;
+        counter-reset: none;
+        left: 105%;
+        bottom: 30%;
+    }
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    position: absolute;
+    top: 102%;
+    margin-right: 600px;
+    font-size: 1.2em;
+}
+
+footer {
+    position: absolute;
+    left: 65%;
+    top: 115%;
+    
 }
 
 a {
