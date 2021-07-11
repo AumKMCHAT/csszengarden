@@ -1,7 +1,17 @@
 
 
+@font-face {
+    font-family: veteran_typewriter;
+    src: url('veteran_typewriter.ttf');
+}
+
+@font-face {
+    font-family: MyUnderwood;
+    src: url('MyUnderwood.ttf');
+}
+
 body {
-    background-color: #f7f7ec;
+    background-image: url('newspaper.jpg');
     border: black;
     border-style: solid;
     position: relative;
@@ -14,12 +24,15 @@ body {
 .intro {
     h1 {
         font-size: 10em;
+        font-family: veteran_typewriter;
+        text-align: center;
     }
     h2 {
         border-style: solid none;
         text-align: center;
         margin: 200px 400px 0px 400px;
         padding: 20px;
+        font-family: veteran_typewriter;
     }
 
 }
@@ -28,12 +41,14 @@ body {
     font-size: 1.2em;
     text-align: center;
     margin-bottom: 100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #zen-preamble {
     h3 {
         font-size: 5em;
         padding-left: 50px;
+        font-family: veteran_typewriter;
     }
     p {
         padding: 0px 50px;
@@ -48,6 +63,7 @@ body {
     .select {
         margin-left: 20px;
         font-size: 2em;
+        font-family: veteran_typewriter;
     }
     ul {
         li {
@@ -67,6 +83,7 @@ body {
     margin-top: 50px;
     h3 {
         font-size: 2em;
+        font-family: veteran_typewriter;
     }
     .explanation {
         padding-left: 50px;
@@ -96,14 +113,16 @@ body {
     position: absolute;
     bottom: 26%;
     left: 38%;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-family: veteran_typewriter;
 }
 
 .design-archives {
     position: absolute;
     bottom: 28.3%;
     left: 60%;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-family: veteran_typewriter;
 }
 
 .benefits {
@@ -140,8 +159,10 @@ footer {
     position: absolute;
     left: 83%;
     font-size: 1.2em;
+    font-family: MyUnderwood;
+    
 }
 
 a {
-    color: rgb(34, 32, 32);
+    color: rgb(116, 80, 80);
 }
